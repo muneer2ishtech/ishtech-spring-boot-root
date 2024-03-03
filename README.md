@@ -47,11 +47,6 @@ mvn test -Dtest=fi.ishtech.springboot.controller.HomeControllerTest#testHome
 mvn clean package -DskipTests=true
 ```
 
-### Docker build
-```
-docker build -f Dockerfile . -t muneer2ishtech/ishtech_spring_boot_root:0.1.0-SNAPSHOT
-```
-
 ## Local Run
 ### Run using Maven
 
@@ -65,22 +60,6 @@ mvn spring-boot:run
 ### Run using Jar
 ```
 java -jar ishtech-spring-boot-root-0.1.0-SNAPSHOT.jar
-```
-
-## Docker Run
-### Pull image
-```
-docker pull muneer2ishtech/ishtech_spring_boot_root:0.1.0-SNAPSHOT
-```
-
-### Run using already built / pulled Docker image
-```
-docker run -it \
- -e AWS_S3_REGION=eu-north-1 \
- -e AWS_S3_ACCESSKEY=TODO_PUT_AWS_ACCESS_KEY \
- -e AWS_S3_SECRETKEY=TODO_PUT_AWS_SECRET_KEY \
- -p 8080:8080 \
- muneer2ishtech/ishtech_spring_boot_root:0.1.0-SNAPSHOT
 ```
 
 ## cURL
