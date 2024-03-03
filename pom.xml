@@ -14,7 +14,7 @@
 
 	<groupId>fi.ishtech.springboot</groupId>
 	<artifactId>ishtech-spring-boot-root</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 
 	<name>ishtech-spring-boot-root</name>
 	<description>Customized Spring Boot root project that can be used in other spring-boot projects</description>
