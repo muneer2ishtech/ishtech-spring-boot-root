@@ -28,7 +28,7 @@ class HomeControllerTest {
 		mvc.perform(get("/")
  				.contentType(MediaType.TEXT_PLAIN))
 				.andExpect(status().isOk())
-				.andExpect(content().string("Intro to Java"));
+				.andExpect(content().string("Welcome to Ishtech Spring-Boot root"));
 		// @formatter:on
 	}
 
