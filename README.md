@@ -47,6 +47,12 @@ mvn test -Dtest=fi.ishtech.springboot.controller.HomeControllerTest#testHome
 mvn clean package -DskipTests=true
 ```
 
+### To get source code and javadoc of dependencies
+```
+mvn dependency:sources
+mvn dependency:resolve -Dclassifier=javadoc
+```
+
 ## Local Run
 ### Run using Maven
 
