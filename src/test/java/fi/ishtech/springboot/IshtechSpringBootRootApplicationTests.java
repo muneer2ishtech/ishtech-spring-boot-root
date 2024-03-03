@@ -1,4 +1,4 @@
-package fi.ishtech.springboot.tests;
+package fi.ishtech.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
