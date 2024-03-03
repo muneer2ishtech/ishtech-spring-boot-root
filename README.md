@@ -1,4 +1,4 @@
-# ishtch-spring-boot-root
+# ishtech-spring-boot-root
 
 ## Versions
 - java - 21
