@@ -1,4 +1,4 @@
-package fi.ishtech.springboot.ishtechspringbootroot;
+package fi.ishtech.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
